@@ -26,6 +26,8 @@ wrapper.style.alignItems = "center";
 wrapper.style.flexDirection = "column";
 
 button.style.backgroundColor = "#4E75FF";
+button.style.width = "148px";
+button.style.height = "40px";
 
 
 
