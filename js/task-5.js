@@ -10,8 +10,8 @@ const currentColor = document.querySelector(".color");
 const wrapper = document.querySelector(".widget");
 
 button.addEventListener("click", () => {
-  currentColor.textContent = getRandomHexColor();
   body.style.backgroundColor = getRandomHexColor();
+  currentColor.textContent = body.style.backgroundColor;
 });
 
 body.style.display = "flex";
